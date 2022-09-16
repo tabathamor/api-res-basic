@@ -8,5 +8,6 @@ module.exports.connectMongo = async () => {
         } else console.log('MongoDB error: Missing MongoDB url');
     } catch (err) {
         console.log('MongoDB error:', err);
+        console.log('aa');
     }
 }
